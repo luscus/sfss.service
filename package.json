@@ -9,11 +9,15 @@
     "sfss.lib",
     "storage",
     "simple",
+    "sfss",
     "json",
     "db"
   ],
   "dependencies": {
-    "express": "4.x.x",
+    "node.extend": "1.1.2",
+    "express": "4.8.7",
+    "body-parser": "1.2.2",
+    "q": "2.0.1",
     "sfss.lib": "0.0.x"
   },
   "devDependencies": {
