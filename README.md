@@ -8,6 +8,8 @@ Builds uppon [sfss.api.endpoint](https://github.com/luscus/sfss.api.endpoint).
 
 ## Usage
 
+    npm install sfss.service --save
+
     var pathLib = require('path'),
         options = {
           port: 8080,
