@@ -1,7 +1,20 @@
 # Simple FS Storage Service
-[![dependencies](https://david-dm.org/luscus/sfss.service.png)](https://david-dm.org/luscus/sfss.service)
+[![NPM version](https://badge.fury.io/js/sfss.service.svg)](http://badge.fury.io/js/sfss.service)
+[![dependencies](https://david-dm.org/luscus/sfss.service.svg)](https://david-dm.org/luscus/sfss.service)
 [![devDependency Status](https://david-dm.org/luscus/sfss.service/dev-status.svg?theme=shields.io)](https://david-dm.org/luscus/sfss.service#info=devDependencies)
 
-Builds uppon [sfss.lib](https://github.com/luscus/sfss.lib).
+Builds uppon [sfss.api.endpoint](https://github.com/luscus/sfss.api.endpoint).
 
 
+## Usage
+
+    var pathLib = require('path'),
+        options = {
+          port: 8080,
+          "sfss.api.endpoint": {
+            dataRoot: __dirname + pathLib.sep + 'data',
+            //disableFileDeletion: true,
+            //disableDirectoryDeletion: true
+          }
+        },
+        api = require('sfss.service')(options);

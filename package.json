@@ -14,11 +14,12 @@
     "db"
   ],
   "dependencies": {
-    "node.extend": "1.1.2",
-    "express": "4.8.7",
-    "body-parser": "1.2.2",
+    "package.module.finder": "0.1.x",
+    "node.extend": "1.1.3",
+    "express": "4.10.1",
+    "body-parser": "1.9.2",
     "q": "2.0.1",
-    "sfss.lib": "0.0.x"
+    "sfss.api.endpoint": "0.0.x"
   },
   "devDependencies": {
     "grunt": "0.4.5",
