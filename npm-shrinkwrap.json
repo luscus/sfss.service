@@ -329,94 +329,16 @@
       }
     },
     "sfss.api.endpoint": {
-      "version": "0.0.1",
-      "from": "sfss.api.endpoint@*",
+      "version": "0.0.2",
+      "from": "sfss.api.endpoint@0.0.2",
       "dependencies": {
-        "node.extend": {
-          "version": "1.1.2",
-          "from": "node.extend@1.1.2",
-          "dependencies": {
-            "is": {
-              "version": "2.0.2",
-              "from": "is@>=2.0.0 <2.1.0"
-            }
-          }
-        },
         "q": {
-          "version": "2.0.1",
-          "from": "q@2.0.1",
-          "dependencies": {
-            "asap": {
-              "version": "1.0.0",
-              "from": "asap@>=1.0.0 <2.0.0"
-            },
-            "collections": {
-              "version": "2.0.2",
-              "from": "collections@>=2.0.0 <3.0.0",
-              "dependencies": {
-                "mini-map": {
-                  "version": "1.0.0",
-                  "from": "mini-map@>=1.0.0 <2.0.0"
-                },
-                "pop-arrayify": {
-                  "version": "1.0.0",
-                  "from": "pop-arrayify@>=1.0.0 <2.0.0"
-                },
-                "pop-clear": {
-                  "version": "1.0.0",
-                  "from": "pop-clear@>=1.0.0 <2.0.0"
-                },
-                "pop-clone": {
-                  "version": "1.0.1",
-                  "from": "pop-clone@>=1.0.1 <2.0.0"
-                },
-                "pop-compare": {
-                  "version": "1.0.0",
-                  "from": "pop-compare@>=1.0.0 <2.0.0"
-                },
-                "pop-equals": {
-                  "version": "1.0.0",
-                  "from": "pop-equals@>=1.0.0 <2.0.0"
-                },
-                "pop-has": {
-                  "version": "1.0.0",
-                  "from": "pop-has@>=1.0.0 <2.0.0"
-                },
-                "pop-hash": {
-                  "version": "1.0.1",
-                  "from": "pop-hash@>=1.0.0 <2.0.0"
-                },
-                "pop-iterate": {
-                  "version": "1.0.1",
-                  "from": "pop-iterate@>=1.0.1 <2.0.0"
-                },
-                "pop-observe": {
-                  "version": "2.0.2",
-                  "from": "pop-observe@>=2.0.2 <3.0.0"
-                },
-                "pop-swap": {
-                  "version": "1.0.0",
-                  "from": "pop-swap@>=1.0.0 <2.0.0"
-                },
-                "pop-zip": {
-                  "version": "1.0.0",
-                  "from": "pop-zip@>=1.0.0 <2.0.0"
-                },
-                "regexp-escape": {
-                  "version": "0.0.1",
-                  "from": "regexp-escape@0.0.1"
-                },
-                "weak-map": {
-                  "version": "1.0.5",
-                  "from": "weak-map@>=1.0.4 <2.0.0"
-                }
-              }
-            }
-          }
+          "version": "1.4.1",
+          "from": "q@1.4.1"
         },
         "sfss.lib": {
           "version": "0.2.1",
-          "from": "sfss.lib@>=0.2.0 <0.3.0",
+          "from": "sfss.lib@0.2.1",
           "dependencies": {
             "rimraf": {
               "version": "2.2.8",
