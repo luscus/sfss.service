@@ -1,7 +1,7 @@
 {
   "name": "sfss.service",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/luscus/sfss.service",
   "author": "https://github.com/luscus/sfss.service/graphs/contributors",
   "description": "Simple FS Storage Service enable a node app to store/retieve JSON objects to/from the filesystem via HTTP",
