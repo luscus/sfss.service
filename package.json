@@ -19,7 +19,7 @@
     "body-parser": "*",
     "devmode": "*",
     "express": "*",
-    "node.extend": "*",
+    "node.extend": ">=2.0.0",
     "package.loader": "*",
     "q": "*",
     "sfss.api.endpoint": "*"
