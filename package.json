@@ -21,7 +21,7 @@
     "express": "*",
     "node.extend": "*",
     "package.loader": "*",
-    "q": "*",
+    "q": ">=1.5.1",
     "sfss.api.endpoint": "*"
   },
   "devDependencies": {
