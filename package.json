@@ -22,7 +22,7 @@
     "node.extend": "*",
     "package.loader": "*",
     "q": "*",
-    "sfss.api.endpoint": "*"
+    "sfss.api.endpoint": ">=0.0.2"
   },
   "devDependencies": {
     "chai": "*",
