@@ -20,7 +20,7 @@
     "devmode": "*",
     "express": "*",
     "node.extend": "*",
-    "package.loader": "*",
+    "package.loader": ">=0.4.1",
     "q": "*",
     "sfss.api.endpoint": "*"
   },
