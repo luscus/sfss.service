@@ -16,7 +16,7 @@
     "db"
   ],
   "dependencies": {
-    "body-parser": "*",
+    "body-parser": ">=1.19.0",
     "devmode": "*",
     "express": "*",
     "node.extend": "*",
